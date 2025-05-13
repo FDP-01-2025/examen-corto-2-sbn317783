@@ -128,6 +128,73 @@ int main()
                     "\n 6. Postre y Cafe. Precio Original: $ "<< postreyCafe << "Precio Reducido: $" << newPostrePrice ; 
 
 
+
+                    cin >> menuOptEstudent;
+
+                        switch (menuOptEstudent)
+                        {
+                        case 1:
+                        subOfBal = saldoFijo - newHamPrice;
+                        absOfBal = newHamPrice - saldoFijo;
+                        if  (subOfBal > 0){
+                            cout<< "Compra Exitosa! Tu saldo es de: " << subOfBal;
+                        } else {
+                            cout << "Saldo insuficiente, te hacen falta " << absOfBal  << " para realizar la compra ";
+                        }
+                        break;
+
+                         case 2:
+                        subOfBal = saldoFijo - newPizzaPrice;
+                        absOfBal = newPizzaPrice - saldoFijo;
+                        if  (subOfBal > 0){
+                            cout<< "Compra Exitosa! Tu saldo es de: " << subOfBal;
+                        } else {
+                            cout << "Saldo insuficiente, te hacen falta " << absOfBal  << " para realizar la compra ";
+                        }
+                        break;
+
+                         case 3:
+                        subOfBal = saldoFijo - newAlmuerzoPrice;
+                        absOfBal = newAlmuerzoPrice - saldoFijo;
+                        if  (subOfBal > 0){
+                            cout<< "Compra Exitosa! Tu saldo es de: " << subOfBal;
+                        } else {
+                            cout << "Saldo insuficiente, te hacen falta " << absOfBal  << " para realizar la compra ";
+                        }
+                        break;
+                         case 4:
+                        subOfBal = saldoFijo - newSopaPrice;
+                        absOfBal = newSopaPrice - saldoFijo;
+                        if  (subOfBal > 0){
+                            cout<< "Compra Exitosa! Tu saldo es de: " << subOfBal;
+                        } else {
+                            cout << "Saldo insuficiente, te hacen falta " << absOfBal  << " para realizar la compra ";
+                        }
+                        break;
+
+                         case 5:
+                        subOfBal = saldoFijo - newPlatoPrice;
+                        absOfBal = newPlatoPrice - saldoFijo;
+                        if  (subOfBal > 0){
+                            cout<< "Compra Exitosa! Tu saldo es de: " << subOfBal;
+                        } else {
+                            cout << "Saldo insuficiente, te hacen falta " << absOfBal  << " para realizar la compra ";
+                        }
+                        break;
+
+                         case 6:
+                        subOfBal = saldoFijo - postreyCafe;
+                        absOfBal = postreyCafe - saldoFijo;
+                        if  (subOfBal > 0){
+                            cout<< "Compra Exitosa! Tu saldo es de: " << subOfBal;
+                        } else {
+                            cout << "Saldo insuficiente, te hacen falta " << absOfBal  << " para realizar la compra ";
+                        }
+                        break;
+                         }
+
+
+
                     
         default:
             break;
